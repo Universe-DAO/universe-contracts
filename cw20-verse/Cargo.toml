@@ -9,6 +9,11 @@ repository = "https://github.com/Universe-DAO/universe-contracts"
 homepage = "https://universedao.io"
 documentation = "https://docs.universedao.io"
 
+exclude = [
+  "contract.wasm",
+  "hash.txt",
+]
+
 [lib]
 crate-type = ["cdylib", "rlib"]
 
